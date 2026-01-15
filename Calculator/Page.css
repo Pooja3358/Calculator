@@ -1,0 +1,67 @@
+.container-fluid,#exit,#start,.last
+{
+    background:linear-gradient(30deg,green,black,green);
+    color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 80px 0px 80px 0px;
+    margin: 150px auto;
+    padding:20px;
+    text-align: center;
+}
+    
+h1
+{
+   font-size:400%;
+}
+#exit,#start
+{
+ width: 200px;
+ height: 150px;
+ font-size:300%;
+ margin: 0%;
+ justify-content: space-evenly;
+}
+#start
+{
+    margin-left: 1090px;
+}
+button:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 30px greenyellow ;
+}
+h2,input
+{
+    display: inline-flex;
+}
+#main
+{
+  background:linear-gradient(30deg,green,black,green);
+  color: white;
+  width: 50%;
+  margin: auto;  
+}
+table
+{ 
+    width: 100%;
+    text-align: center;
+}
+input
+{
+    height: 30px;
+    outline: none;
+}
+input:focus
+{
+    box-shadow: 0 0 30px greenyellow;
+    background-color:black;
+    color: azure;
+}
+.dial1,.dial2,.dial3,.dial4
+{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(45deg,yellowgreen,black,yellowgreen);
+    color: white;
+}
